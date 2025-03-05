@@ -71,14 +71,14 @@ public class FeatureExtractor {
                 }
                 System.out.println();
 
-            BufferedImage recreatedImage = recreateImage(features, 28, 28);
-            File output = new File("recreated_image.png");
-            ImageIO.write(recreatedImage, "png", output);
-            System.out.println("Recreated image saved as recreated_image.png");
+                BufferedImage recreatedImage = recreateImage(features, 28, 28);
+                File output = new File("recreated_image.png");
+                ImageIO.write(recreatedImage, "png", output);
+                System.out.println("Recreated image saved as recreated_image.png");
 
             }
         } catch (Exception e) {
             e.printStackTrace();
-        }
-    }
+                            }
+                }
 }

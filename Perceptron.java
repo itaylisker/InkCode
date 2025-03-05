@@ -73,6 +73,6 @@ public class Perceptron {
     // Debugging utility: Print the weights and bias
     public void printModel() {
         System.out.println("Weights: " + Arrays.toString(weights));
-        System.out.println("Bias: " + bias);
-    }
+        System.out.println("Bias: " + bias);
+                }
 }
